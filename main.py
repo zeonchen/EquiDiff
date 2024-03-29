@@ -4,7 +4,7 @@ import pandas as pd
 import argparse
 import torch.nn as nn
 import torch.nn.functional as F
-from model.equidiff import EquiDiffPlus
+from model.equidiff import EquiDiff
 from model.ddpm import GaussianDiffusionTrainer
 from model.ddpm import GaussianDiffusionSampler
 import copy

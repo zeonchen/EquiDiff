@@ -106,7 +106,7 @@ class PositionalEncoding(nn.Module):
         return self.dropout(x)
 
 
-class EquiDiffPlus(nn.Module):
+class EquiDiff(nn.Module):
     def __init__(self, context_dim, T):
         super().__init__()
         self.context = ContextEncoder(context_dim, hidden_size=context_dim)
